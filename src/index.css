@@ -4,15 +4,19 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 body {
   font-family: 'Poppins', sans-serif;
 }
 :root {
   /* color */
-  --colorPrimary: rgb(81, 0, 0);
+  --colorPrimary: rgb(190, 24, 24);
   --colorSecondary: #696969;
 
   /* background */
   --backgroundPrimary: navy;
+
+  /* padding */
+  --padding: 0 130px;
 }
