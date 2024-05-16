@@ -11,6 +11,7 @@ import {
 import { Outlet, useNavigate } from 'react-router-dom';
 import { navbar } from '../../utils/navbar';
 import logoImg from '../../assets/img/logoo.png';
+import Button from '../Generic/Button';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -23,20 +24,24 @@ const Navbar = () => {
             <Logo src={logoImg} /> <LogoTitle>Apartment</LogoTitle>
           </Section>
           <Section>
-            {navbar.map(({ title, path }, i) => {
+            {navbar.map(({ title, path, hidden }, i) => {
               return (
-                <Link
-                  className={({ isActive }) => isActive && 'active'}
-                  key={i}
-                  to={path}
-                >
-                  {title}
-                </Link>
+                !hidden && (
+                  <Link
+                    className={({ isActive }) => isActive && 'active'}
+                    key={i}
+                    to={path}
+                  >
+                    {title}
+                  </Link>
+                )
               );
             })}
           </Section>
           <Section>
-            <button>Sign In</button>
+            <Button onClick={() => navigate('/signin')} type={'dark'}>
+              Sign In
+            </Button>
           </Section>
         </Wrapper>
       </WrapperWrap>
