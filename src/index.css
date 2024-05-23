@@ -19,3 +19,16 @@ body {
   /* padding */
   --padding: 0 130px;
 }
+.title {
+  color: #0d263b;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 36 px;
+}
+.subTitle {
+  color: #0d263b;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}

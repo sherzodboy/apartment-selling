@@ -39,8 +39,9 @@ const Container = styled.input`
   border-radius: 2px;
   min-width: 120px;
   outline: none;
-  border: 2px solid #e6e9ec;
+  border: 1px solid gray;
+  padding-left: 15px;
   // ${getType}
- `;
+`;
 
 export { Container };

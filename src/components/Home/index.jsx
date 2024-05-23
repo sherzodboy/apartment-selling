@@ -1,11 +1,10 @@
 import React from 'react';
 import { Container } from './style';
-import { Input } from '../Generic';
 
 const Home = () => {
   return (
     <Container>
-      <Input placeholder={'test'} />
+      <h2>Home</h2>
     </Container>
   );
 };

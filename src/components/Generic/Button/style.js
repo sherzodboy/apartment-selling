@@ -16,13 +16,13 @@ const getType = ({ type }) => {
       };
     case 'primary':
       return {
-        background: 'red',
+        background: 'dodgerblue',
         border: 'none',
         color: 'white',
       };
     default:
       return {
-        background: 'red',
+        background: '#bb0000',
         border: 'none',
         color: 'white',
       };
