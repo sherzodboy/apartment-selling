@@ -28,7 +28,7 @@ const Filter = () => {
             alignItems: 'center',
           }}
           type="button"
-          className="btn btn-dark dropdown-toggle"
+          className="btn btn-outline border dropdown-toggle"
           data-toggle="dropdown"
           aria-haspopup="true"
           aria-expanded="false"

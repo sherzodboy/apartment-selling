@@ -10,7 +10,7 @@ import {
 } from './style';
 import { Outlet, useNavigate } from 'react-router-dom';
 import { navbar } from '../../utils/navbar';
-import logoImg from '../../assets/img/logoo.png';
+import logoImg from '../../assets/img/vecteezy_home-icon-logo-symbol-transparent-background_24761144.png';
 import Button from '../Generic/Button';
 import Filter from '../Filter';
 

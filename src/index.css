@@ -8,6 +8,14 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
 :root {
   /* color */
   --colorPrimary: rgb(190, 24, 24);

@@ -10,6 +10,8 @@ const Container = styled.div`
   padding-top: 10px;
   padding-bottom: 10px;
   column-gap: 20px;
+  max-width: 1440px;
+  margin: auto;
 `;
 
 const Icons = styled.div``;
@@ -32,7 +34,8 @@ const MenuWrapper = styled.div`
   background: white;
   border: 1px solid black;
   border-radius: 4px;
-  width: 700px;
+  width: 777px;
+  transform: translate(-80%, 60px) !important;
 `;
 const Section = styled.div`
   margin-bottom: 20px;

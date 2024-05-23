@@ -25,10 +25,14 @@ const Section = styled.div`
   .active {
     color: black;
   }
+  :hover {
+    color: black;
+    text-decoration: none;
+  }
 `;
 
 const Logo = styled.img`
-  width: 77px;
+  width: 52px;
   margin-right: 10px;
   color: white;
   cursor: pointer;
