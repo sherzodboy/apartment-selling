@@ -20,7 +20,6 @@ a {
   /* color */
   --colorPrimary: rgb(190, 24, 24);
   --colorSecondary: #696969;
-
   /* background */
   --backgroundPrimary: navy;
 
@@ -39,4 +38,10 @@ a {
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 5px;
+}
+.info {
+  font-weight: 400;
+  font-size: 14px;
+  color: #696969;
+  line-height: 20px;
 }
