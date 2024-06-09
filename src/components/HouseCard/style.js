@@ -7,9 +7,8 @@ import { ReactComponent as resize } from '../../assets/icons/resize.svg';
 import { ReactComponent as love } from '../../assets/icons/love.svg';
 
 const Container = styled.div`
-  margin: 100px;
   width: 380px;
-  height: 430px;
+  height: 450px;
   box-shadow: 0 0 1px 0.2px black;
   border-radius: 4px;
   background: rgba(205, 205, 205, 0.2);

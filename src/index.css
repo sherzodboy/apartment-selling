@@ -45,3 +45,8 @@ a {
   color: #696969;
   line-height: 20px;
 }
+.inline {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+}
