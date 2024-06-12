@@ -17,7 +17,9 @@ const HouseCard = ({ data = {} }) => {
   return (
     <Container>
       <Img
-        src={(images && images[Math.floor(Math.random() * 8) + 1].url) || noimg}
+        src={
+          (images && images[Math.floor(Math.random() * 14) + 1].url) || noimg
+        }
       />
       <Content>
         <div className="subTitle inline">

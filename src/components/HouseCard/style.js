@@ -7,7 +7,9 @@ import { ReactComponent as resize } from '../../assets/icons/resize.svg';
 import { ReactComponent as love } from '../../assets/icons/love.svg';
 
 const Container = styled.div`
-  width: 380px;
+  width: 100%;
+  max-width: 380px;
+  min-width: 340px;
   height: 450px;
   box-shadow: 0 0 1px 0.2px black;
   border-radius: 4px;
@@ -57,7 +59,9 @@ const Icons = styled.div``;
 Icons.Bed = styled(bed)``;
 Icons.Bath = styled(bath)``;
 Icons.Car = styled(car)``;
-Icons.Ruler = styled(ruler)``;
+Icons.Ruler = styled(ruler)`
+  margin-bottom: 2.5px;
+`;
 Icons.Love = styled(love)`
   width: 22px;
   height: 22px;

@@ -4,9 +4,8 @@ import HouseCard from '../HouseCard';
 
 const Properties = () => {
   const [data, setData] = useState([]);
-
   useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/users ')
+    fetch('https://jsonplaceholder.typicode.com/users')
       .then((res) => res.json())
       .then((res) => {
         setData(res);
