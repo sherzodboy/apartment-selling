@@ -9,7 +9,6 @@ const Container = styled.div`
   border-radius: 4px;
   background: rgba(205, 205, 205, 0.2);
   overflow: hidden;
-  margin: 15px;
 `;
 
 const Img = styled.img`
@@ -67,7 +66,7 @@ const Blur = styled.div`
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.6);
   color: white;
   border-radius: 4px;
 `;

@@ -26,12 +26,12 @@ let images = [
   },
   {
     id: 5,
-    name: 'House',
+    name: 'Cottage',
     url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSXGPR0y1efaP9CL6lIt7F7Ter1ykDsNtV7Q&s',
   },
   {
     id: 6,
-    name: 'Apartment',
+    name: 'Dom',
     url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfe3R8GiIXgaxUO83JPjKycaO2ZNeKFaYALA&s',
   },
   {
@@ -66,12 +66,12 @@ let images = [
   },
   {
     id: 13,
-    name: 'Villa',
+    name: 'Dom',
     url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG_ghB-uwUSwgkzRrVJnCu3HplfCeKARKPgQ&s',
   },
   {
     id: 14,
-    name: 'Hotel',
+    name: 'Cottage',
     url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8cCxS_GGYbL9ubOolYdlC0c9lbc-k0L3Kbw&s',
   },
 ];

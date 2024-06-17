@@ -3,9 +3,9 @@ import { Container, Content, Details, Img, Blur } from './style';
 import noimg from '../../assets/img/No-image-available.jpg';
 import images from './img';
 
-const CategoryCard = () => {
+const CategoryCard = ({ onClick }) => {
   return (
-    <Container>
+    <Container onClick={onClick}>
       <Img
         src={
           (images && images[Math.floor(Math.random() * 14) + 1].url) || noimg

@@ -50,3 +50,7 @@ a {
   overflow: hidden;
   white-space: nowrap;
 }
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
